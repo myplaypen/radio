@@ -13,20 +13,9 @@ const videoPlayer = (function makeVideoPlayer() {
     addPlayer(frameContainer);
   }
  
-  
-    function createResetHandler(player) {
-    const resetVideo = document.querySelectorAll(".exit");
-      document.addEventListener("click", function resetVideoHandler() {
-        player.destroy();
-        console.log("removePlayer");
-      });
-
-  }
-
   function onPlayerReady(event) {
     const player = event.target;
     player.setVolume(100);
-    /*createResetHandler(player);*/
   }
   
 
