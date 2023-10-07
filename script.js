@@ -26,7 +26,7 @@ const videoPlayer = (function makeVideoPlayer() {
   function onPlayerReady(event) {
     const player = event.target;
     player.setVolume(100);
-    createResetHandler(player);
+    /*createResetHandler(player);*/
   }
   
 
