@@ -20,7 +20,7 @@ const videoPlayer = (function makeVideoPlayer() {
         player.destroy();
         console.log("removePlayer");
       });
-    
+
   }
 
   function onPlayerReady(event) {
